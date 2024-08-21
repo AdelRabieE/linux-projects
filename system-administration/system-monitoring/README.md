@@ -1,22 +1,29 @@
-# System Monitoring Project
 
-This project is designed to help you monitor essential system resources such as CPU usage, memory consumption, disk utilization, and network activity. It includes a Bash script that generates comprehensive reports in both text and PDF formats.
+#### calculator.sh
 
-## How to Run
+- **Project Description**: `calculator.sh` is a simple Bash script that functions as an advanced calculator. It supports basic arithmetic operations including addition, subtraction, multiplication, and division.
 
-1. Open your terminal.
-2. Navigate to the script's directory.
-3. Make the script executable: Run `chmod +x system_report.sh` to ensure the script can be executed.
-4. Execute the script: Use `./system_report.sh` to start the monitoring process.
+- **How to Run**:
+  1. Open your terminal.
+  2. Navigate to the directory containing the script: `cd linux-projects/bash_scripts`.
+  3. Ensure the script is executable: `chmod +x calculator.sh`.
+  4. Run the script: `./calculator.sh`.
 
-## Output
+- **Script Features**:
+  - **User Interaction**: The script prompts the user to choose an arithmetic operation and input two numbers.
+  - **Operations Supported**: 
+    - Addition
+    - Subtraction
+    - Multiplication
+    - Division (with error handling for division by zero)
+  - **Logging**: Each operation is logged with a timestamp in `operations.log` for future reference.
 
-- `system_report.txt`: A detailed text report containing all the monitored system data.
-- `system_report.pdf`: A PDF version of the report for easy sharing and printing.
+- **Example**:
+  - If you choose addition and input `4` and `5`, the output will be:
+    ```
+    The sum of 4 and 5 is: 9
+    Operation completed successfully on: [current_date_time]
+    Logged operation to 'operations.log'.
+    ```
 
-## Requirements
-
-- **Bash**: The script is written in Bash, so you'll need a Bash environment to run it.
-- **enscript** and **ps2pdf**: These utilities are required for converting the text report into a PDF.
-
-This script provides a straightforward and efficient way to keep track of your system's health, making it ideal for basic monitoring tasks.
+This README provides a clear and concise overview of the script, making it easier for others to understand and use it.
