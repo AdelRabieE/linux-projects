@@ -1,0 +1,6 @@
+Africa,Egypt,Cairo
+Africa,Nigeria,Abuja
+Europe,France,Paris
+Europe,Germany,Berlin
+North America,United States,Washington DC
+North America,Canada,Ottawa
