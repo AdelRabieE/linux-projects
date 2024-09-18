@@ -1,6 +1,6 @@
 # Network Utilities Script
 
-This script provides a set of basic network utilities to check network status, display the IP address, and perform a traceroute to a server.
+This script provides a set of basic network utilities to check network status, display the IP address, and perform a traceroute to a specified server.
 
 ## Features
 - **Check Network Connection**: Verifies network connectivity by pinging `google.com`.
@@ -9,15 +9,18 @@ This script provides a set of basic network utilities to check network status, d
 
 ## Prerequisites
 - The following commands should be installed on your system:
-    - `ping`
-    - `ip` (from the `iproute2` package)
-    - `traceroute`
+  - `ping`
+  - `ip` (from the `iproute2` package)
+  - `traceroute`
 
 To install missing dependencies on Ubuntu/Debian:
 ```bash
 sudo apt install iproute2 traceroute
 
-![Check Network Status Screenshot](Screenshot from 2024-09-18 11-47-30.png)
-![Display IP Address Screenshot](Screenshot from 2024-09-18 11-48-28.png)
-![Traceroute Server Screenshot](Screenshot from 2024-09-18 11-49-19.png)
-![Full Traceroute Result Screenshot](Screenshot from 2024-09-18 11-58-27.png)
+**Make sure the script has execution permissions:
+   chmod +x network_utilities.sh
+**Run the script:
+   ./network_utilities.sh
+
+
+
