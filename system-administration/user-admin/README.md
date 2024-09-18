@@ -16,13 +16,13 @@
 2 ./user_admin.sh
 ## Screenshots
 1. **Adding a user:**
-   ![Add User](./Screenshot_2024-09-18_102113.png)
+   ![Add User](./Screenshot%202024-09-18%20102113.png)
 
 2. **Deleting a user:**
-   ![Delete User](./Screenshot_2024-09-18_102313.png)
+   ![Delete User](./Screenshot%202024-09-18%20102313.png)
 
 3. **Listing all users:**
-   ![List Users](./Screenshot_2024-09-18_102348.png)
+   ![List Users](./Screenshot%202024-09-18%20102348.png)
 
 4. **Changing a user's password:**
-   ![Change Password](./Screenshot_2024-09-18_102410.png)
+   ![Change Password](./Screenshot%202024-09-18%20102410.png)
