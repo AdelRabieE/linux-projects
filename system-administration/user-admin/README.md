@@ -14,3 +14,15 @@
    ```bash
    chmod +x user_admin.sh
 2 ./user_admin.sh
+## Screenshots
+1. **Adding a user:**
+   ![Add User](./Screenshot_2024-09-18_102113.png)
+
+2. **Deleting a user:**
+   ![Delete User](./Screenshot_2024-09-18_102313.png)
+
+3. **Listing all users:**
+   ![List Users](./Screenshot_2024-09-18_102348.png)
+
+4. **Changing a user's password:**
+   ![Change Password](./Screenshot_2024-09-18_102410.png)
